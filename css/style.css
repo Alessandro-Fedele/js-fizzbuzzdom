@@ -1,0 +1,39 @@
+body {
+    background-color: #083b4c;;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.row-cols-7 > * {
+    flex: 0 0 auto;
+    width: calc(100% / 7);
+}
+
+/* Testo al centro */
+.square-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* bg color */
+.elsecolor {
+    background-color: #1389b2;
+}
+
+.fizz {
+    background-color: #0bd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizzbuzz {
+    background-color: #f0466f;
+}
